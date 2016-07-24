@@ -1,0 +1,260 @@
+<!DOCTYPE	html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Factor Tree Design</title>
+		<link rel="stylesheet" href="../css/style.css">
+		
+		<link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.min.css">
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function() {
+				$('#accordion').accordion( {
+					event: 'click',
+					icons: {
+						header: 'ui-icon-plus',
+						activeHeader: 'ui-icon-minus'
+					},
+					heightStyle: 'content',
+					collapsible: true,
+					active: false
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-container">
+				<div class="top-menu">
+					<ul class="language">
+						<li><a href="../index.html">EN</a></li>
+						<li><a href="#" class="active">ES</a></li>
+					</ul>
+				</div>
+				<nav>
+					<div class="topnav">
+						<a href="#" class="logo" title="Factor Tree Design"><span>Factor Tree design</span></a>
+						<ul>
+							<li><a href="#manifesto">Manifesto</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+						<a href="#product" class="button">Comprar</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+			
+		<div id="wrapper">
+			
+			<section id="hero">
+			</section>
+			
+			<section id="about">
+				
+				<article>
+					<header>
+						<h1>Quienes Somos?</h1>
+						<h2>The Name</h2>
+					</header>
+					<p>
+						Factor Tree is a mathematical technique which objective is simplify or rewrite an expression in its fundamental terms. That is what we are about, we search for the essential avoiding excess.
+					</p>
+				</article>
+				
+				<article>
+					<header>
+						<h1>Who are we?</h1>
+						<h2>The Company</h2>
+					</header>
+					<p>
+						Factor Tree is an ethical, vegetarian men footwear. We create limited timeless collections inspired on the traditional styles, emphasizing construction techniques and the quality of the materials used.
+						We offer comfortable, versatility and lasting footwear for an urban active life.
+						
+					</p>
+				</article>
+				
+			</section>
+
+			<section id="manifesto">
+				
+				<article>
+					<div class="content spain left">
+						<header>
+							<h1>Made in Spain</h1>
+						</header>
+						<p>
+							We design and manufacture in small workshops in Spain. Our espadrilles are made in limited editions by expert artisans taking care of each detail. The proximity to the factories makes as develop a close relationship which ensure integrity in the production, quality of the final product and reduce our carbon footprint.
+							
+						</p>
+					</div>
+				</article>
+				
+				<article>
+					<div class="content sustainable right">
+						<header>
+							<h1>Ecological</h1>
+						</header>
+						<p>
+							Our materials are resourced by the highest quality suppliers with certification. Produced in a responsible way, responding to ethical and ecological standards. Soft and gently with your skin, free of harmful chemicals and metals. Minimal use of dying, our goal is to preserve the beauty of authentic materials in its more pure stage.
+							
+						</p>
+					</div>
+				</article>
+				
+				<article>
+					<div class="content vegan left">
+						<header>
+							<h1>Vegan</h1>
+						</header>
+						<p>
+							We believe that beautiful things cannot be created from the harm of an animal. All our components are entirely animal-free. We use natural fibres and technical materials with high performance features that respect people, animals and the planet.
+						</p>
+					</div>
+				</article>
+					
+			</section>
+			
+			<section id="product">
+				<article>
+					<div class="product-container">
+						<header>
+							<h1>Men's Espadrille</h1>
+						</header>
+						<div class="price-wrapper">£100</div>
+						<a href="#size-chart" title="Size Chart">Size Chart</a>
+						
+						<aside class="icon-list">
+							<div class="icon">
+								<figure class="image-icon cow">
+									<figcaption>Vegan</figcaption>
+								</figure>
+							</div>
+							<div class="icon">
+								<figure class="image-icon spain">
+									<figcaption>Made in Spain</figcaption>
+								</figure>
+							</div>
+							<div class="icon">
+								<figure class="image-icon sustainable">
+									<figcaption>Sustainable Materials & Processes</figcaption>
+								</figure>
+							</div>
+						</aside>
+						
+						<div id="size-chart">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1>Size Chart</h1>
+								</div>
+								<table>
+									<tbody>
+										<tr>
+											<th>EU Size</th>
+											<th>UK Size</th>
+											<th>US Size</th>
+										</tr>
+										<tr>
+											<td>41</td>
+											<td>7</td>
+											<td>8</td>
+										</tr>
+										<tr>
+											<td>42</td>
+											<td>7.5</td>
+											<td>8.5</td>
+										</tr>
+										<tr>
+											<td>43</td>
+											<td>8.5</td>
+											<td>9.5</td>
+										</tr>
+										<tr>
+											<td>44</td>
+											<td>9</td>
+											<td>10</td>
+										</tr>
+										<tr>
+											<td>45</td>
+											<td>10</td>
+											<td>11</td>
+										</tr>
+									</tbody>
+								</table>
+								<a href="#product" class="close-modal">X</a>
+							</div>
+						</div>
+						
+						<div class="size-wrapper">
+							<label>Available Sizes (EU)</label>
+							<ul class="sizes">
+								<li>41</li>
+								<li>42</li>
+								<li>43</li>
+								<li>44</li>
+								<li>45</li>
+							</ul>
+						</div>
+					
+						<div class="product-tools">
+							<div class="cart-btn-wrapper">
+								<button id="" type="submit" class="order_now">Order Now</button>
+							</div>
+							
+							<div id="accordion">
+								<h3>Details</h3>
+								<div class="panel">
+									<p>Composition:
+									Upper and lining 100% organic cotton (GOTs certified)
+									Personalized heel label in vegan ecological leather (OEKO-TEX Certified) 
+									The sole is made of braided jute with rubber sole.
+									Spot clean only.
+									</p>
+								</div>
+								<h3>Shipping & Returns</h3>
+								<div class="panel">
+									<p>Spain Standard: 5€
+										Peninsula
+										Zone 1 Standard: 15€ 
+										France, Portugal, Andorra, Gibraltar, UK, Germany, Benelux, Sweden and Denmark.
+										Zone 2 Standard: 26€ 
+										Balearic and Canary Islands, Russia, Norway, Switzerland, and Rest of Europe.
+
+										Average delivery time: 2-3 working days.
+										RETURNS
+										You can request a return or an exchange for any product within 14 days from the delivery date.</p>
+								</div>
+							</div>
+							
+							<div class="social-wrapper">
+								<label>Share</label>
+								<ul class="social-share">
+									<li><a href="#" title="Facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="Twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="Google-Plus"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						
+						</div>
+					</div>
+				</article>
+			</section>
+				
+			<footer>
+				<div class="content">
+					Copyright &copy; 2016 Factor Tree Design
+					<ul class="social">
+						<li><a href="#" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="#" title="Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="#" title="Email"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</footer>
+		
+		</div>
+	</body>
+</html>
