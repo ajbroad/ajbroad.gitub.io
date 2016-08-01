@@ -386,6 +386,60 @@ figure.ecological { background: url("../images/sustainable.png") no-repeat cente
 figure.handmade { background: url("../images/handmade_aguja.png") no-repeat center top;  background-size: 50px 50px;}
 figure.vegan { background: url("../images/vaca_2.png") no-repeat center top;  background-size: 50px 50px;}
 
+/* Contact form */
+
+form {
+	width: 100%;
+}
+
+input[type=text], 
+input[type=email] {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #444444;
+	font-size: 1em;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #444444;
+	background-color: #444444;
+	color: #fff;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: rgba(68,68,68,0.9);
+}
+
+textarea {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #444444;
+	background-color: #fff;
+	color: #444444;
+	font-size: 1em;
+	resize: none;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+	border-color: #d7d7d7;
+}
+
 /* Footer */
 
 footer {
@@ -451,6 +505,11 @@ footer .footer-bottom-container {
 	
 	ul.composition_list {
 		display: none;
+	}
+	
+	#form_container {
+		margin: 0 auto;
+		width: 50%;
 	}
 
 }
