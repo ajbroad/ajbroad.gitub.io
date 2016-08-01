@@ -526,12 +526,27 @@ footer .footer-bottom-container {
 		width: 50%;
 	}
 	
-	article figure {
+	section#philosophy .content {
+		margin-top: 0;
+	}
+	
+	article.left figure {
 		float: left;
 		width: 60%;
 	}
 	
-	section#philosophy .content,
+	article.right figure {
+		float: right;
+		width: 60%;
+	}
+	
+	article.right .content {
+		float: left;
+		width: 40%;
+		margin-top: 0;
+	}
+	
+	article.left .content,
 	section#composition .content {
 		float: right;
 		width: 40%;
