@@ -42,6 +42,12 @@ body {
 	max-width: 1200px;
 }
 
+#wrapper-thanks {
+	width: 100%;
+	margin: 40px auto 0;
+	max-width: 1200px;
+}
+
 /* Text */
 
 h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: bold; }
@@ -245,6 +251,11 @@ section article p {
 	margin-bottom: 3em;
 }
 
+article {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
 /* Section composition */
 
 ol.composition_list {
@@ -282,8 +293,8 @@ section#about .content {
 	margin: 0 auto;
 }
 
-section#philosophy .content,
-section#composition .content {
+section#philosophy,
+section#composition {
 	margin-top: 8em;
 	margin-bottom: 8em;
 }
@@ -482,7 +493,7 @@ footer .footer-bottom-container {
 
 @media (min-width: 1024px) {
 
-	#wrapper {
+	#wrapper, #wrapper-thanks {
 		border-left: 1px solid #d7d7d7;
 		border-right: 1px solid #d7d7d7;
 	}
@@ -503,7 +514,7 @@ footer .footer-bottom-container {
 	
 	p {
 		margin: 0 auto;
-		width: 65%;
+		width: 80%;
 	}
 
 	aside {
@@ -530,6 +541,11 @@ footer .footer-bottom-container {
 		margin-top: 0;
 	}
 	
+	article {
+		margin-top: 4em;
+		margin-bottom: 4em;
+	}
+	
 	article.left figure {
 		float: left;
 		width: 60%;
@@ -543,7 +559,6 @@ footer .footer-bottom-container {
 	article.right .content {
 		float: left;
 		width: 40%;
-		margin-top: 0;
 	}
 	
 	article.left .content,
