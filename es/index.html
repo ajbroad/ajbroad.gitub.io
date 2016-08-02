@@ -1,28 +1,17 @@
-<!DOCTYPE	html>
+<!DOCTYPE html>
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Factor Tree Design</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../css/style.css">
 		
-		<link rel="stylesheet" href="../css/font-awesome-4.6.3/css/font-awesome.min.css">
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script>
-			$(document).ready(function() {
-				$('#accordion').accordion( {
-					event: 'click',
-					icons: {
-						header: 'ui-icon-plus',
-						activeHeader: 'ui-icon-minus'
-					},
-					heightStyle: 'content',
-					collapsible: true,
-					active: false
-				});
-			});
+		document.createElement("picture");
 		</script>
+		<script src="js/picturefill.min.js" async></script>
 	</head>
 
 	<body>
@@ -31,18 +20,21 @@
 				<div class="top-menu">
 					<ul class="language">
 						<li><a href="../index.html">EN</a></li>
-						<li><a href="#" class="active">ES</a></li>
+						<li><a href="/" class="active">ES</a></li>
 					</ul>
+				</div>
+				<div class="logo-container">
+					<object type="image/svg+xml" data="../images/Logo_web.svg" class="logo">
+					</object>
 				</div>
 				<nav>
 					<div class="topnav">
-						<a href="#" class="logo" title="Factor Tree Design"><span>Factor Tree design</span></a>
 						<ul>
-							<li><a href="#manifesto">Manifesto</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#about">Nosotros</a></li>
+							<li><a href="#philosophy">Filosofia</a></li>
+							<li><a href="#stockists">Puntos de venta</a></li>
+							<li><a href="#contact">Contacto</a></li>
 						</ul>
-						<a href="#product" class="button">Comprar</a>
 					</div>
 				</nav>
 			</div>
@@ -51,210 +43,235 @@
 		<div id="wrapper">
 			
 			<section id="hero">
+				<figure class="hero-image">
+					<img
+						src="../images/three_quarter_cotton_material_large.jpeg"
+						alt="Factor Tree"
+						srcset="../images/composition_sm.jpg 800w,
+								../images/three_quarter_cotton_material_large.jpeg 1200w"
+						sizes="(min-width: 48em) 1200px, 100vw"
+					>
+				</figure>
 			</section>
 			
-			<section id="about">
-				
+			<section id="about">			
 				<article>
-					<header>
-						<h1>Quienes Somos?</h1>
-						<h2>The Name</h2>
-					</header>
-					<p>
-						Factor Tree is a mathematical technique which objective is simplify or rewrite an expression in its fundamental terms. That is what we are about, we search for the essential avoiding excess.
-					</p>
+					<div class="content">
+						<header>
+							<h1>Quiénes somos?</h1>
+						</header>
+						<p>
+							Factor Tree es una marca ética de calzado de hombre que nace con el objetivo de ofrecer un producto confortable, versátil y duradero para un estilo de vida activo.
+						</p>
+						<p>
+							Nuestros diseños están inspirados en los modelos tradicionales, creando piezas esenciales y atemporales, enfatizando en el proceso de elaboración y en la máxima calidad de los materiales utilizados. 	
+						</p>
+					</div>
 				</article>
-				
-				<article>
-					<header>
-						<h1>Who are we?</h1>
-						<h2>The Company</h2>
-					</header>
-					<p>
-						Factor Tree is an ethical, vegetarian men footwear. We create limited timeless collections inspired on the traditional styles, emphasizing construction techniques and the quality of the materials used.
-						We offer comfortable, versatility and lasting footwear for an urban active life.
-						
-					</p>
-				</article>
-				
+			</section>
+			
+			<section id="icons">			
+				<aside class="icon-list">
+					<div class="icon">
+						<figure class="image-icon healthy">
+							<figcaption>Saludable</figcaption>
+						</figure>
+					</div>
+					<div class="icon">
+						<figure class="image-icon handmade">
+							<figcaption>Hecho a mano en España</figcaption>
+						</figure>
+					</div>
+					<div class="icon">
+						<figure class="image-icon ecological">
+							<figcaption>Ecológico</figcaption>
+						</figure>
+					</div>
+					<div class="icon">
+						<figure class="image-icon vegan">
+							<figcaption>Vegano</figcaption>
+						</figure>
+					</div>
+				</aside>
 			</section>
 
-			<section id="manifesto">
-				
-				<article>
-					<div class="content spain left">
+			<section id="philosophy">
+				<article class="left">
+					<figure>
+						<picture>
+						<source srcset="../images/cotton_plant_sm.jpg"
+							media="(max-width: 600px)">
+						<img
+							src="../images/cotton_plant_small.jpg"
+							alt="Healthy"
+							srcset="../images/cotton_plant_small.jpg 600w"
+							sizes="(min-width: 48em) 600px, 100vw"
+						>
+					</figure>
+					<div class="content">
 						<header>
-							<h1>Made in Spain</h1>
+							<h1>Beneficioso para la salud</h1>
 						</header>
 						<p>
-							We design and manufacture in small workshops in Spain. Our espadrilles are made in limited editions by expert artisans taking care of each detail. The proximity to the factories makes as develop a close relationship which ensure integrity in the production, quality of the final product and reduce our carbon footprint.
-							
+							Utilizamos algodón puro de verdad, libre de sustancias nocivas. Este algodón es suave y agradable al tacto, hipoalergénico, transpirable, antiestático y ayuda a neutralizar los rayos ultravioletas del sol. Las suelas están elaboradas con yute, una fibra 100% natural y ecológica, extremadamente transpirable y fuerte que mantiene los pies frescos y secos.
 						</p>
 					</div>
 				</article>
 				
-				<article>
-					<div class="content sustainable right">
+				<article class="right">
+					
+					<figure>
+						<picture>
+						<source srcset="../images/landscape_sm.jpg"
+							media="(max-width: 600px)">
+						<img
+							src="../images/landscape_small.jpg"
+							alt="Ecological"
+							srcset="../images/landscape_small.jpg 600w"
+							sizes="(min-width: 48em) 600px, 100vw"
+						>
+						</picture>
+					</figure>
+					<div class="content">
 						<header>
-							<h1>Ecological</h1>
+							<h1>Ecológico</h1>
 						</header>
 						<p>
-							Our materials are resourced by the highest quality suppliers with certification. Produced in a responsible way, responding to ethical and ecological standards. Soft and gently with your skin, free of harmful chemicals and metals. Minimal use of dying, our goal is to preserve the beauty of authentic materials in its more pure stage.
-							
+							Nuestros materiales son de máxima calidad, producidos de un modo responsable y respondiendo a estándares ecológicos y éticos. Nuestro objetivo es preservar la belleza de los materiales auténticos en su estado más puro. Utilizamos algodón orgánico cultivado sin pesticidas o herbicidas con la garantía OCCGUARANTEE. Este algodón no posee tintes y su color crudo corresponde a la tonalidad original en la planta.
 						</p>
 					</div>
 				</article>
 				
-				<article>
-					<div class="content vegan left">
+				<article class="left">
+					
+					<figure>
+						<picture>
+						<source srcset="../images/handmade_sm.jpg"
+							media="(max-width: 600px)">
+						<img
+							src="../images/handmade_small.jpg"
+							alt="Hand made"
+							srcset="../images/handmade_small.jpg 600w"
+							sizes="(min-width: 48em) 600px, 100vw"
+						>
+						</picture>
+					</figure>
+					<div class="content">
 						<header>
-							<h1>Vegan</h1>
+							<h1>Hecho a mano en España</h1>
 						</header>
 						<p>
-							We believe that beautiful things cannot be created from the harm of an animal. All our components are entirely animal-free. We use natural fibres and technical materials with high performance features that respect people, animals and the planet.
+							Diseñamos y fabricamos en pequeños talleres en España. Nuestras alpargatas están hechas en ediciones limitadas por artesanos expertos siguiendo métodos tradicionales y cuidando cada detalle. Producimos localmente, lo cual nos permite desarrollar una relación cercana con las fábricas lo cual garantiza integridad en la producción, máxima calidad del producto final y reduce nuestro impacto ecológico.
 						</p>
 					</div>
 				</article>
 					
+				<article class="right">
+					
+					<figure>
+						<picture>
+						<source srcset="../images/sole_and_material_sm.jpg"
+							media="(max-width: 600px)">
+						<img
+							src="../images/sole_material_small.jpg"
+							alt="Vegan"
+							srcset="../images/sole_material_small.jpg 600w"
+							sizes="(min-width: 48em) 600px, 100vw"
+						>
+						</picture>
+					</figure>
+					<div class="content">
+						<header>
+							<h1>Vegano</h1>
+						</header>
+						<p>
+							Todos nuestros componentes son veganos, no utilizamos ningún material de procedencia animal. Nuestro calzado está elaborado con fibras naturales y materiales innovadores con altas prestaciones técnicas que respetan a la gente, a los animales y al planeta.
+						</p>
+					</div>
+				</article>
+				
 			</section>
 			
-			<section id="product">
-				<article>
-					<div class="product-container">
+			<section id="composition">
+				<article class="left">
+					<figure>
+						<picture>
+						<source srcset="../images/components.jpg"
+							media="(max-width: 600px)">
+						<img
+							src="../images/components.jpg"
+							alt="Composition"
+							srcset="../images/components.jpg 600w"
+							sizes="(min-width: 48em) 600px, 100vw"
+						>
+						</picture>
+					</figure>
+					<div class="content">
 						<header>
-							<h1>Men's Espadrille</h1>
+							<h1>Composición</h1>
 						</header>
-						<div class="price-wrapper">£100</div>
-						<a href="#size-chart" title="Size Chart">Size Chart</a>
-						
-						<aside class="icon-list">
-							<div class="icon">
-								<figure class="image-icon cow">
-									<figcaption>Vegan</figcaption>
-								</figure>
-							</div>
-							<div class="icon">
-								<figure class="image-icon spain">
-									<figcaption>Made in Spain</figcaption>
-								</figure>
-							</div>
-							<div class="icon">
-								<figure class="image-icon sustainable">
-									<figcaption>Sustainable Materials & Processes</figcaption>
-								</figure>
-							</div>
-						</aside>
-						
-						<div id="size-chart">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h1>Size Chart</h1>
-								</div>
-								<table>
-									<tbody>
-										<tr>
-											<th>EU Size</th>
-											<th>UK Size</th>
-											<th>US Size</th>
-										</tr>
-										<tr>
-											<td>41</td>
-											<td>7</td>
-											<td>8</td>
-										</tr>
-										<tr>
-											<td>42</td>
-											<td>7.5</td>
-											<td>8.5</td>
-										</tr>
-										<tr>
-											<td>43</td>
-											<td>8.5</td>
-											<td>9.5</td>
-										</tr>
-										<tr>
-											<td>44</td>
-											<td>9</td>
-											<td>10</td>
-										</tr>
-										<tr>
-											<td>45</td>
-											<td>10</td>
-											<td>11</td>
-										</tr>
-									</tbody>
-								</table>
-								<a href="#product" class="close-modal">X</a>
-							</div>
-						</div>
-						
-						<div class="size-wrapper">
-							<label>Available Sizes (EU)</label>
-							<ul class="sizes">
-								<li>41</li>
-								<li>42</li>
-								<li>43</li>
-								<li>44</li>
-								<li>45</li>
-							</ul>
-						</div>
-					
-						<div class="product-tools">
-							<div class="cart-btn-wrapper">
-								<button id="" type="submit" class="order_now">Order Now</button>
-							</div>
-							
-							<div id="accordion">
-								<h3>Details</h3>
-								<div class="panel">
-									<p>Composition:
-									Upper and lining 100% organic cotton (GOTs certified)
-									Personalized heel label in vegan ecological leather (OEKO-TEX Certified) 
-									The sole is made of braided jute with rubber sole.
-									Spot clean only.
-									</p>
-								</div>
-								<h3>Shipping & Returns</h3>
-								<div class="panel">
-									<p>Spain Standard: 5€
-										Peninsula
-										Zone 1 Standard: 15€ 
-										France, Portugal, Andorra, Gibraltar, UK, Germany, Benelux, Sweden and Denmark.
-										Zone 2 Standard: 26€ 
-										Balearic and Canary Islands, Russia, Norway, Switzerland, and Rest of Europe.
-
-										Average delivery time: 2-3 working days.
-										RETURNS
-										You can request a return or an exchange for any product within 14 days from the delivery date.</p>
-								</div>
-							</div>
-							
-							<div class="social-wrapper">
-								<label>Share</label>
-								<ul class="social-share">
-									<li><a href="#" title="Facebook"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-									<li><a href="#" title="Twitter"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-									<li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a></li>
-									<li><a href="#" title="Google-Plus"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						
-						</div>
+						<ol class="composition_list">
+							<li>Exterior y forro: algodón orgánico (OCCGUARANTEE) libre de tintes</li>
+							<li>Cosido a mano por expertos artesanos con cuidado y dedicación</li>
+							<li>Caucho vulcanizado para reforzar la suela</li>
+							<li>Suela de Yute. Transpirable y ecológica</li>
+							<li>Etiqueta. Piel vegana, ecológica y transpirable (certificado OEKO-TEX)</li>
+						</ol>
 					</div>
 				</article>
 			</section>
-				
-			<footer>
-				<div class="content">
-					Copyright &copy; 2016 Factor Tree Design
-					<ul class="social">
-						<li><a href="#" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-						<li><a href="#" title="Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-						<li><a href="#" title="Email"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+
+			<section id="stockists">
+				<article>
+					<div class="content">
+						<header>
+							<h1>Puntos de venta</h1>
+						</header>
+						<ul class="stockist_list">
+							<li><a href="http://shop.organiccottoncolours.com/en/factor-tree/7191-mateo-espadilles.html" title="Organic Men's Espadrille Shop">Organic Cotton Colours</a></li>
+							<li>Y más próximamente</li>
+						</ul>
+					</div>
+				</article>
+			</section>
+			
+			<section id="contact">
+				<article>
+					<div class="content">
+						<header>
+							<h1>Contacta con nosotros</h1>
+						</header>
+							<form action="https://formspree.io/factortreedesign@gmail.com"
+						      method="POST">
+								<div id="form_container">
+						    <input type="text" name="name" placeholder="nombre">
+						    <input type="email" name="_replyto" placeholder="email">
+								<textarea name="body" rows="4" placeholder="mensaje"></textarea>
+								<input type="text" name="_gotcha" style="display:none" />
+								<input type="hidden" name="_next" value="https://www.factortreedesign.com/es/gracias.html" />
+						    <input type="submit" value="Enviar">
+								</div>
+							</form>
+					</div>
+				</article>
+			</section>			
+
+		</div>
+		
+		<footer>
+			<div class="content">
+				<div class="social-wrapper" id="contact">
+					<ul class="social-share">
+						<li><a href="https://www.facebook.com/factortreedesign/" title="Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/factortreedesign/" title="Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
-			</footer>
-		
-		</div>
+				<div class="footer-bottom-container">
+					Copyright &copy; 2016 Factor Tree Design
+				</div>
+			</div>
+		</footer>
+
 	</body>
 </html>
