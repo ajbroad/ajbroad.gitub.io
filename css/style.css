@@ -94,13 +94,18 @@ div#logo-container {
 }
 
 .logo {
-
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url("../images/Logo.png") no-repeat 0 0;
+	background-size: contain;
+	margin: 0 auto;
 }
 
 .no-svg .logo {
 	display: block;
 	width: 200px;
-	height: 46px;
+	height: 50px;
 	background: url("../images/Logo.png") no-repeat 0 0;
 	background-size: contain;
 	margin: 0 auto;
