@@ -409,7 +409,7 @@ ul.social-share li a:hover {
 
 @media screen and (min-width: 600px) {
   section#hero {
-  	background: url('../images/sitges-tenis-denim-beach-half-1x.jpg') no-repeat top left;
+  	background: url('../images/sItges-tenis-denim-beach-half-1x.jpg') no-repeat top left;
   	background-size: cover;
   	height: 100vh;
   }	
@@ -421,7 +421,7 @@ ul.social-share li a:hover {
 	}
 	
   section#hero {
-  	background: url('../images/sitges-tenis-denim-beach.jpg') no-repeat top left;
+  	background: url('../images/sItges-tenis-denim-beach.jpg') no-repeat top left;
   	background-size: cover;
   	height: 100vh;
   }	
