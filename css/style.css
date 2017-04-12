@@ -198,7 +198,7 @@ section header {
 header h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.4em;
-	text-transform: capitalize;
+	text-transform: none;
 	text-decoration: none;
 	font-weight: normal;
 	letter-spacing: 1px;
@@ -274,6 +274,9 @@ input[type=submit] {
 	color: #fff;
 	font-size: 1em;
 	cursor: pointer;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type=submit]:hover {
