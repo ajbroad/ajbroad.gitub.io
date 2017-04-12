@@ -154,6 +154,12 @@ nav li a:hover {
 
 nav li a:visited {
   color: black;  
+}  
+
+.bold {
+  font-weight: 900;
+	font-style: normal;
+	font-family: 'Raleway', sans-serif;
 }
 	
 /* Section styles */
@@ -163,6 +169,7 @@ section {
 	font-size: 0.9em;
 	padding: 0 40px;
 	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
 }
 	
 section#hero {
