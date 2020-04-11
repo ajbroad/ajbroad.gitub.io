@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="141.73px" height="56.69px" viewBox="0 0 141.73 56.69" enable-background="new 0 0 141.73 56.69" xml:space="preserve">
+<text transform="matrix(1 0 0 1 43.8638 32.8096)" fill="#017C50" font-family="'CenturyGothic-Bold'" font-size="18.3162">factor tree</text>
+<g>
+	<g>
+		<path fill="#017C50" d="M29.329,16.186c1.863,0,3.379,1.515,3.379,3.378V31.84l-22.9-0.002V19.564
+			c0-1.863,1.516-3.378,3.379-3.378H29.329 M29.329,15.186H13.188c-2.419,0-4.379,1.96-4.379,4.378v13.274l24.9,0.002V19.564
+			C33.708,17.146,31.748,15.186,29.329,15.186L29.329,15.186z"/>
+	</g>
+</g>
+<path fill="none" stroke="#017C50" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M22.075,39.988v-14.54
+	c0-1.728,1.4-3.129,3.127-3.129h5.883"/>
+<path fill="none" stroke="#017C50" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M22.075,39.988v-8.803
+	c0-1.727,1.4-3.127,3.127-3.127h4.373"/>
+<path fill="none" stroke="#017C50" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M20.452,39.988v-14.54
+	c0-1.728-1.4-3.129-3.127-3.129h-5.883"/>
+</svg>
