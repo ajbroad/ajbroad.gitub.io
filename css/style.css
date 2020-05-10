@@ -235,6 +235,13 @@ header nav {
   flex-wrap: wrap;
 }
 
+.about_header {
+  height: 400px;
+  width: 100%;
+  background: url('../images/rocks-mar-waves.jpg') no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+
 #about {
   margin: 0 auto 40px;
   text-align: justify;
@@ -253,14 +260,17 @@ header nav {
 
 #about article p {
   line-height: 2;
+  padding: 10px 0;
 }
 
 #artesanal article p {
   line-height: 2;
+  padding: 10px 0;
 }
 
 #calidad article p {
   line-height: 2;
+  padding: 10px 0;
 }
 
 .footer li {
