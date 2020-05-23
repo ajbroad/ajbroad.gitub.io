@@ -1,135 +1,160 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84016300-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-84016300-1');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Factor Tree Design">
-  <meta name="keywords" content="Factor Tree Design, Organic Cotton">
-  <meta name="author" content="Factor Tree Design">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <title>Factor Tree Design Home Page</title>
+  <link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.min.css">
+  <title>Factor Tree Design</title>
 </head>
 <body>
-  <!-- Navigation -->
   <header>
-    <nav class="main-nav">
-      <img src="images/logo.svg" alt="Factor Tree Design" class="logo">
-
-      <ul class="main-menu">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="https://medium.com/@factortreedesign" title="factor tree blog">Blog</a></li>
-        <li><a href="#">Shop - Coming soon</a></li>
+    <div class="logo">
+      <a href="/index.html">
+        <img id="logo" src="images/Logo negro_factor tree.png" alt="">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li class="dropdown">
+          <a href="#" class="dropdown-btn">Conócenos</a>
+          <div class="dropdown-content">
+            <a href="conocenos.html">Conócenos</a>
+            <a href="proceso-artesanal.html">Proceso Artesanal</a>
+            <a href="sustainable-materials.html">Materiales sostenibles</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-btn">Colecciones</a>
+          <div class="dropdown-content">
+            <a href="colecciones/hombre.html">Hombre</a>
+            <a href="colecciones/mujer.html">Mujer</a>
+          </div>
+        </li>
+        <li>
+          <a href="https://medium.com/@factortreedesign">Blog</a>
+        </li>
       </ul>
     </nav>
+    <div id="cart"></div>
   </header>
-  <div class="container">
-    <!-- Showcase -->
-    <header class="showcase">
-      <h2>Colección primavera/verano</h2>
-    </header>
-
-    <!-- Home Cards -->
-    <section class="home-cards">
-      <div>
-        <img src="/images/cosido-a-mano-1x.jpg" alt="">
-        <h3>Proceso Artesanal</h3>
-        <p>
-          Las alpargatas de Factor Tree se elaboran en pequeños talleres familiares en España, son cosidas a mano, puntada a puntada, prestando atención a cada detalle. Cada par es diferente y único, como resultado de un proceso totalmente artesanal, siguiendo una tradición que se ha mantenido prácticamente intacta a lo largo de los siglos. 
-        </p>
-        <a href="#"></a>
-      </div>
-      <div>
-        <img src="/images/cosido-1x.jpg" alt="">
-        <h3>Cruelty free</h3>
-        <p>
-          En Factor Tree creemos que las cosas hermosas no pueden ser creadas generando dolor en los seres vivos. No utilizamos piel, todos nuestros componentes son de origen no animal, producidos mediante métodos respetuosos con las personas, el medio ambiente y los animales.
-        </p>
-        <a href="#"></a>
-      </div>
-      <div>
-        <img src="/images/corcho_cork.jpg" alt="">
-        <h3>Materiales ecológicos</h3>
-        <p>
-          Apostamos por el uso de materiales de primera calidad, procedentes de proveedores europeos y producidos de modo responsable, respondiendo a criterios ecológicos y éticos. Utilizamos principalmente algodón orgánico certificado, lino, yute y corcho. Nuestros estampados están realizados con tintes de base agua. 
-        </p>
-        <a href="#"></a>
-      </div>
-    </section>
-
-    <!--  -->
-    <section class="product">
+  
+  <main>
+    <section id="showcase">
       <div class="content">
-        <h2>100% responsable</h2>
-        <p>
-          Los pilares de Factor Tree son la sostenibilidad, proximidad y calidad. Utilizamos materiales ecológicos y biodegradables, que cuidan tus pies y el planeta.
-        </p>
+        <h1>Escucha. Repira. Observa. Siente.</h1>
       </div>
     </section>
-
-    <!-- Home Cards 2 -->
-    <section>
-      <header>
-        <h2>Productos destacados</h2>
-      </header>
-      <div class="home-cards">
-        <div>
-          <img src="/images/begur-original-classic-mens-espadrille-side.jpg" alt="begur-hombre-espadrille-algodon-organico">
-          <h3>Begur</h3>
-          <p>
-            Nuestro modelo Begur es un clásico, un must-have que no puede faltar en tu armario, fácilmente combínale y versátil. Se adapta al pie como un guante, aportando sujeción y comodidad. Elaboradas con algodón orgánico 100% y estampados con diseños originales Factor Tree.
-          </p>
-        </div>
-        <div>
-          <img src="/images/graphite-sitges-womens-espadrille-tennis-side.jpg" alt="graphite-sitges-mujer-espadrille-algodon-organico">
-          <h3>Sitges</h3>
-          <p>
-            Las alpargatas Sitges son una combinación de tradición y modernidad, un estilo atemporal que podrás llevar todo el año. Perfecto para un estilismo  effortless chic. Modelo con cordones de yute y favorecedora puntera cosida a mano con mucho cuidado y cariño.
-          </p>
-        </div>
-        <div>
-          <img src="/images/sunset-cadaques-womens-espadrille-sandal-side.jpg" alt="cadaques-mujer-espadrille-sandal-algodon-organico">
-          <h3>Cadaqués</h3>
-          <p>
-            Cadaqués es en rediseño del modelo básico de menorquinas, inspiradas en los largos días de verano en la Costa Brava. Con tira de corcho que se adapta perfectamente al tobillo. Sencillas y cómodas, la elección ideal para los días de calor. 
-          </p>
+    
+    <section id="colecciones" class="container cols-2">
+      <div class="col">
+        <a href="colecciones/mujer.html" class="collection__link">
+          <img src="images/colección-mujer.jpg" alt="">
+          <h3>Colección mujer</h3>
+        </a>
+      </div>
+      <div class="col">
+        <a href="colecciones/hombre.html" class="collection__link">
+          <img src="images/colección-hombre.jpg" alt="">
+          <h3>Colección hombre</h3>
+        </a>
+      </div>
+    </section>
+    
+    <section id="artesanal" class="container cols-2">
+      <div id="artesanal__image" class="col">
+        <img src="images/coser-mano.jpg" alt="">
+      </div>
+      <div id="artesanal__content" class="col">
+        <div class="content">
+          <h3>Alpargatas hechas a mano en ediciones limitadas</h3>
+          <a href="proceso-artesanal.html" class="btn">Descubre más</a>
         </div>
       </div>
     </section>
-
-    <!--  -->
-    <section class="poolside">
-      <div class="content">
-        <h2>Inspiración mediterránea</h2>
-        <p>
-          Las colecciones de Factor Tree, atemporales y de edición limitada, se inspiran en el Mediterráneo y su estilo de vida que nos recuerda la importancia de disfrutar de los pequeños momentos y de las cosas sencillas pero auténticas. 
-        </p>
+    
+    <section id="materiales" class="container cols-2">
+      <div id="materiales__image" class="col">
+        <img src="images/algodon.jpg" alt="">
+      </div>
+      <div id="materiales__content" class="col">
+        <div class="content">
+          <h3>Comprometidos con el medioambiente</h3>
+          <a href="sustainable-materials.html" class="btn">Descubre más</a>
+        </div>
       </div>
     </section>
 
-    <!-- Social -->
-    <section class="social">
-      <p>Follow Factor Tree</p>
-      <a href="https://www.instagram.com/factortreedesign/">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-      </a>
-      <a href="https://www.facebook.com/factortreedesign/" title="Facebook">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-      </a>
-			<a href="https://www.pinterest.es/factor_tree/" title="Pinterest">
-        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-      </a>	
+    <section id="newsletter" class="container" style="display: none">
+      <div id="newsletter__form">
+        <form action="">
+          <h2>
+            No te pierdas nuestra novedades y promociones.
+          </h2>
+          <p>
+            Suscribete a nuestra newsletter y recibe un 10% de descuento en tu primera compra.
+          </p>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Enter your email address">
+            <button type="submit" class="submit__btn">Suscribirse</button>
+          </div>
+        </form>
+      </div>
     </section>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <ul>
-        <li><a href="#">&copy; Factor Tree Design 2020</a></li>
-      </ul>
+  </main>
+  
+  <footer class="container">
+    <div class="footer__links">
+      <div>
+        <h3>Empresa</h3>
+        <ul id="impresa">
+          <li><a href="conocenos.html">Conocenos</a></li>
+          <li><a href="proceso-artesanal.html">Proceso Artesanal</a></li>
+          <li><a href="sustainable-materials.html">Materiales Sostenibles</a></li>
+          <li><a href="https://medium.com/@factortreedesign">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ayuda</h3>
+        <ul id="contact">
+          <li><a href="/contacto.html">Contacto</a></li>
+          <li><a href="/faq.html">Preguntas y respuestas</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <h3>Social</h3>
+        <ul id="social__links">
+          <li>
+            <a href="https://www.facebook.com/factortreedesign/">
+              <i class="fab fa-facebook-f"></i>
+              <span class="sr-only">facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.es/factor_tree/">
+              <i class="fab fa-pinterest-p"></i>
+              <span class="sr-only">pinterest</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/factortreedesign/">
+              <i class="fab fa-instagram"></i>
+              <span class="sr-only">instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>&copy; 2020 Factor Tree Design</span>
     </div>
   </footer>
 </body>
