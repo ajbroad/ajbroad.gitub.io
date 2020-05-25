@@ -429,6 +429,10 @@ ul.care li {
 } 
 
 @media (max-width: 480px) {
+  #showcase {
+    height: 100vh;
+  }
+
   header {
     flex-direction: column;
   }
@@ -439,6 +443,10 @@ ul.care li {
 
   .cell {
     width: 100%;
+  }
+
+  .footer__links {
+    flex-direction: column;
   }
 }
 
