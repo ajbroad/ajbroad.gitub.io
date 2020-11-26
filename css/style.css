@@ -397,8 +397,30 @@ footer a {
   flex-direction: row;
 }
 
+.grid-col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.sizes li {
+  margin-left: 0.75rem;
+}
+
+.sizes li:first-child {
+  margin-left: 0;
+}
+
 .cell {
   width: calc((100% / 3) - 2rem);
+  padding: 1rem;
 }
 
 .responsive-image {
@@ -411,8 +433,12 @@ footer a {
 
 .image-description {
 	padding: 0.5rem 0;
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
+}
+
+.unavailable {
+  color: #aaa;
 }
 
 .image-price {
