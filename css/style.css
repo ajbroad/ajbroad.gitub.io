@@ -446,6 +446,14 @@ footer a {
 	text-align: center;	
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
+.sale {
+  color: #990000;
+}
+
 .care {
   list-style-type: circle;
 }
