@@ -450,6 +450,11 @@ footer a {
   text-decoration: line-through;
 }
 
+.price {
+  padding: 0.5rem 0;
+	text-align: left;
+}
+
 .sale {
   color: #990000;
 }
