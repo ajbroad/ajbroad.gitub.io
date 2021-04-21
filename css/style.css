@@ -105,6 +105,15 @@ article {
   text-align: center;
 }
 
+.cols-3 .col {
+  flex: 0 0 33%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .col {
   position: relative;
 }
