@@ -312,6 +312,16 @@ a.collection__link:hover {
   border: 1px solid white;
 }
 
+#colecciones .invert {
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+
+#ss21 .invert {
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+}
+
 #materiales {
   flex-direction: row-reverse;
 }
