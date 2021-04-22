@@ -87,6 +87,10 @@ article {
   padding: 0 1.875rem;
 }
 
+article p {
+  line-height: 1.6;
+}
+
 .container {
   margin: 10rem auto;
   max-width: 1100px;
@@ -208,7 +212,7 @@ nav ul li a {
 }
 
 #showcase {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
   height: 900px;
   position: relative;
@@ -217,7 +221,7 @@ nav ul li a {
 
 #showcase:before {
   content: '';
-  background: url('../images/barcos-mar.jpg') no-repeat center center/cover;
+  background: url('../images/4DF20D5D-7002-448F-AD22-6273E983C201.jpeg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
