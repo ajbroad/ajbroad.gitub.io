@@ -152,7 +152,7 @@ nav ul li {
   display: none;
   position: absolute;
   background-color: #fff;
-  min-width: 150px;
+  min-width: 170px;
   z-index: 1;
 }
 
@@ -177,7 +177,7 @@ nav ul li {
   display: none;
   position: absolute;
   background-color: #fff;
-  min-width: 200px;
+  min-width: 150px;
   z-index: 1;
 }
 
