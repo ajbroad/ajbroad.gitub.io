@@ -538,11 +538,22 @@ ul.care li {
     height: 100vh;
   }
 
+  #ss21 img {
+    width: 100%;
+    height: 337px;
+    object-fit: cover;
+    object-position: 50% 0;
+  }
+
   header {
     flex-direction: column;
   }
 
   .cols-2 {
+    display: block;
+  }
+
+  .cols-3 {
     display: block;
   }
 
@@ -560,7 +571,14 @@ ul.care li {
     flex-direction: column;
   }
 
-  .cols-2 {
+  #ss21 img {
+    width: 100%;
+    height: 337px;
+    object-fit: cover;
+    object-position: 50% 0;
+  }
+
+  .cols-3 {
     display: block;
   }
 
