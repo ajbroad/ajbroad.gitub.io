@@ -484,6 +484,11 @@ footer a {
   margin-left: 0;
 }
 
+.preorder {
+  margin-top: 8px;
+  color: darkgreen;
+}
+
 .cell {
   width: calc((100% / 3) - 2rem);
   padding: 1rem;
